@@ -1,0 +1,22 @@
+[
+  {
+    "name": "KweeksNews",
+    "link": "https://kweeksnews.com/",
+    "image": "/assets/images/kweeksnews.svg"
+  },
+  {
+    "name": "KweeksHelp",
+    "link": "https://help.kweeksnews.com/",
+    "image": "/assets/images/kweekshelp.svg"
+  },
+  {
+    "name": "KweeksDev",
+    "link": "https://developers.kweeksnews.com/",
+    "image": "/assets/images/kweeksdev.svg"
+  },
+  {
+    "name": "KweeksHook",
+    "link": "https://webhook.kweeksnews.com/",
+    "image": "/assets/images/kweekshook.svg"
+  }
+]
