@@ -30,32 +30,46 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" as="style">
   <link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block" as="style">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css" as="style">
   <link rel="preload" href="/assets/css/style.css" as="style">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css">
   <link rel="stylesheet" href="/assets/css/style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
     integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
     crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/vendors/scrolloverflow.min.js"
+    integrity="sha512-pYyQWhzi2lV+RM4GmaUA56VPL48oLVvsHmP9tuQ8MaZMDHomVEDjXXnfSVKXayy+wLclKPte0KbsuVoFImtE7w=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"
+    integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ=="
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <main>
-    <div id="container">
-      <nav class="card fullscreen">
-        <a href="/"><img src="/assets/images/kweeksnet.svg" alt="KweeksNet" title="KweeksNet"></a>
-        <p>Jaringan&nbsp;Situs&nbsp;Web&nbsp;KweeksNews</p>
-      </nav>
-      <a id="status" class="card" href="https://status.kweeksnews.com/" target="_blank">
-        <p class="icons"><i class="material-icons">insert_chart</i>Status</p>
-        <p class="link">https://status.kweeksnews.com/</p>
-        <i class="material-icons launch">launch</i>
-      </a>
+  <div id="fullpage">
+    <div class="section fullscreen">
+      <img src="/assets/images/kweeksnet.svg" alt="KweeksNet" title="KweeksNet">
+      <p>Jaringan&nbsp;Situs&nbsp;Web&nbsp;KweeksNews</p>
     </div>
-  </main>
-  <footer>
-    <p>&copy; <span id="year"></span> <span class="marking">KweeksNews Network</span>. All Rights Reserved.</p>
-  </footer>
+    <div class="section">
+      <div id="container">
+        <a id="network" class="card" href="/">
+          <img src="/assets/images/kweeksnet.svg" alt="KweeksNet" title="KweeksNet">
+          <p>Jaringan&nbsp;Situs&nbsp;Web&nbsp;KweeksNews</p>
+        </a>
+        <a id="status" class="card" href="https://status.kweeksnews.com/" target="_blank">
+          <p class="icons"><i class="material-icons">insert_chart</i>Status</p>
+          <p class="link">https://status.kweeksnews.com/</p>
+          <i class="material-icons launch">launch</i>
+        </a>
+      </div>
+    </div>
+    <footer class="section fp-auto-height">
+      <p>&copy; <span id="year"></span> <span class="marking">KweeksNews Network</span>. All Rights Reserved.</p>
+    </footer>
+  </div>
   <script defer src="/assets/js/script.js"></script>
 </body>
 

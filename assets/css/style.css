@@ -122,7 +122,7 @@ main {
 #container {
   max-width: 1376px;
   width: 100%;
-  margin: 80px auto 60px;
+  margin: 60px auto 60px;
   padding: 0 30px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -139,14 +139,10 @@ main {
 
 .fullscreen {
   background-color: var(--body-bg-black);
-  box-shadow: none;
-  border-radius: 0;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  position: absolute;
-  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .link {
@@ -177,7 +173,7 @@ main {
   height: 33px;
 }
 
-nav {
+#network {
   grid-area: span 1 / span 4 / auto / auto;
   height: 60vh;
   z-index: 1;
@@ -191,13 +187,20 @@ nav {
   -moz-transition: all 0.2s ease-in-out;
 }
 
-nav img {
+#network img {
+  max-height: 45px;
+  max-width: 80%;
+  margin: 0 auto 5px;
+}
+
+.fullscreen img {
   max-height: 65px;
   max-width: 80%;
   margin: 0 auto 5px;
 }
 
-nav p {
+#network p,
+.fullscreen p {
   text-align: center;
 }
 
@@ -253,7 +256,7 @@ footer {
 }
 
 @media screen and (min-width: 992px) {
-  nav {
+  #network {
     grid-area: span 1 / span 2 / auto / auto;
     height: 300px;
   }

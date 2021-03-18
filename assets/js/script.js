@@ -9,13 +9,12 @@ $(document).ready(function () {
         `<i class="material-icons launch">launch</i></a>`;
     }
     $('#container').append(site);
+    $.fn.fullpage.reBuild();
   });
   $('#year').text(new Date().getFullYear());
-});
-$(document).on('scroll', function () {
-  if ($(document).scrollTop() !== 0) {
-    $('nav').removeClass('fullscreen');
-  } else {
-    $('nav').addClass('fullscreen');
-  }
+  $('#fullpage').fullpage({
+    licenseKey: '9cfeg6W%y2',
+    autoScrolling: true,
+    scrollOverflow: true,
+  });
 });
