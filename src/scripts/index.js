@@ -14,7 +14,7 @@ const loadData = async () => {
   siteData.map((data) => {
     siteItem += `
       <a class="site" href="${data.link}" target="_blank" aria-label="${data.name}">
-        <img src="${data.image}" alt="${data.name}" title="${data.name}">
+        <img class="lazyload" data-src="${data.image}" alt="${data.name}" title="${data.name}">
         <p class="link">${data.link}</p>
         <i class="material-icons launch">launch</i>
       </a>`;
