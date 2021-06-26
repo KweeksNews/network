@@ -2,21 +2,21 @@
   {
     "name": "KweeksNews",
     "link": "https://www.kweeksnews.com/",
-    "image": "/assets/images/kweeksnews.svg"
+    "image": "/assets/img/kweeksnews.svg"
   },
   {
     "name": "KweeksHelp",
     "link": "https://help.kweeksnews.com/",
-    "image": "/assets/images/kweekshelp.svg"
+    "image": "/assets/img/kweekshelp.svg"
   },
   {
     "name": "KweeksDev",
     "link": "https://developers.kweeksnews.com/",
-    "image": "/assets/images/kweeksdev.svg"
+    "image": "/assets/img/kweeksdev.svg"
   },
   {
     "name": "KweeksHook",
     "link": "https://webhook.kweeksnews.com/",
-    "image": "/assets/images/kweekshook.svg"
+    "image": "/assets/img/kweekshook.svg"
   }
 ]

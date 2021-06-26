@@ -1,18 +1,18 @@
-# <p align="center"><img width="40%" src="https://network.kweeksnews.com/assets/images/kweeksnet.svg"></p>
+# <p align="center"><img width="40%" src="https://network.kweeksnews.com/assets/img/kweeksnet.svg"></p>
 
 ## Introduction
 
-KweeksNet (KweeksNews Network) uses the [GitHub Pages](https://pages.github.com//) service to display a list of the KweeksNews Network sites.
+KweeksNet (KweeksNews Network) uses the [GitHub Pages](https://pages.github.com/) service to display a list of the KweeksNews Network sites.
 
 ### JSON Parameters
 
 #### assets/json/tech.json
 
-| Parameters | Description        | Type   | Required |
-| ---------- | ------------------ | ------ | -------- |
-| name       | Site's name        | string | Yes      |
-| link       | Site's direct link | string | Yes      |
-| image      | Site's logo        | string | Yes      |
+| Parameters | Description | Type   | Required |
+| ---------- | ----------- | ------ | -------- |
+| name       | Site's name | string | Yes      |
+| link       | Site's link | string | Yes      |
+| image      | Site's logo | string | Yes      |
 
 ### License
 
