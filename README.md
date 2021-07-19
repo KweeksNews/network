@@ -1,8 +1,8 @@
-# <p align="center"><img width="40%" src="https://network.kweeksnews.com/assets/img/kweeksnet.svg"></p>
+# <p align="center"><img width="40%" src="https://network.kweeksnews.com/assets/img/kweeksnews-network.svg"></p>
 
 ## Introduction
 
-KweeksNet (KweeksNews Network) uses the [GitHub Pages](https://pages.github.com/) service to display a list of the KweeksNews Network sites.
+KweeksNews Network uses the [GitHub Pages](https://pages.github.com/) service to display a list of the KweeksNews Network sites.
 
 ### JSON Parameters
 

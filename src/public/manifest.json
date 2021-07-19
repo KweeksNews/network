@@ -1,6 +1,6 @@
 {
-  "name": "KweeksNet",
-  "short_name": "KweeksNet",
+  "name": "KweeksNews Network",
+  "short_name": "KweeksNews Network",
   "description": "Peta jaringan situs KweeksNews.",
   "start_url": "/",
   "display": "standalone",
