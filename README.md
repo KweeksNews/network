@@ -6,7 +6,7 @@ KweeksNews Network uses the [GitHub Pages](https://pages.github.com/) service to
 
 ### JSON Parameters
 
-#### assets/json/tech.json
+#### src/public/assets/json/site.json
 
 | Parameters | Description | Type   | Required |
 | ---------- | ----------- | ------ | -------- |
