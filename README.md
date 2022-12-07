@@ -1,8 +1,8 @@
-# <p align="center"><img width="40%" src="https://network.kweeksnews.com/assets/img/kweeksnews-network.svg"></p>
+# <p align="center"><img width="40%" src="https://network.kweeksnews.com/assets/images/kweeksnews-network.svg"></p>
 
 ## Introduction
 
-KweeksNews Network uses the [GitHub Pages](https://pages.github.com/) service to display a list of the KweeksNews Network sites.
+A web page deployed on [Cloudflare Pages](https://pages.cloudflare.com/) to display a list of the KweeksNews Network sites.
 
 ### JSON Parameters
 
@@ -17,7 +17,7 @@ KweeksNews Network uses the [GitHub Pages](https://pages.github.com/) service to
 ### License
 
 ```
-Copyright (C) 2020  KweeksNews Network
+Copyright (C) 2020-2022  KweeksNews Network
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
