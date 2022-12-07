@@ -1,0 +1,38 @@
+[
+  {
+    "name": "KweeksNews",
+    "link": "https://www.kweeksnews.com/",
+    "image": {
+      "src": "/assets/images/kweeksnews.svg",
+      "width": 294.55,
+      "height": 45
+    }
+  },
+  {
+    "name": "KweeksHelp",
+    "link": "https://help.kweeksnews.com/",
+    "image": {
+      "src": "/assets/images/kweekshelp.svg",
+      "width": 294.55,
+      "height": 45
+    }
+  },
+  {
+    "name": "KweeksDev",
+    "link": "https://developers.kweeksnews.com/",
+    "image": {
+      "src": "/assets/images/kweeksdev.svg",
+      "width": 294.55,
+      "height": 45
+    }
+  },
+  {
+    "name": "KweeksHook",
+    "link": "https://webhook.kweeksnews.com/",
+    "image": {
+      "src": "/assets/images/kweekshook.svg",
+      "width": 294.55,
+      "height": 45
+    }
+  }
+]
