@@ -5,6 +5,9 @@ module.exports = {
   content: ['./src/pages/**/*.{ts,tsx}', './src/components/**/*.{ts,tsx}'],
   theme: {
     extend: {
+      animation: {
+        rebound: 'rebound 2s infinite',
+      },
       colors: {
         'tigers-eye': '#dd9933',
         'chinese-black': {
@@ -21,6 +24,19 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Quicksand', ...defaultTheme.fontFamily.sans],
+      },
+      keyframes: {
+        rebound: {
+          '0%, 20%, 50%, 80%, 100%': {
+            transform: 'translateY(0)',
+          },
+          '40%': {
+            transform: 'translateY(-30px)',
+          },
+          '60%': {
+            transform: 'translateY(-15px)',
+          },
+        },
       },
     },
   },

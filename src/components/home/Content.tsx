@@ -1,7 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import sites from '../../data/sites.json';
-import { Launch as LaunchIcon, InsertChart as InsertChartIcon } from '@mui/icons-material';
+import {
+  Launch as LaunchIcon,
+  InsertChart as InsertChartIcon,
+  KeyboardArrowDown as KeyboardArrowDownIcon,
+} from '@mui/icons-material';
 import { SiteCard } from './SiteCard';
 import { useOnScrollOver } from '../../hooks';
 
@@ -28,6 +32,11 @@ export function Content() {
               height={45}
             />
             <p className="text-base text-white mt-5">KweeksNews Network</p>
+            <KeyboardArrowDownIcon
+              className={`text-white bottom-24 animate-rebound ${
+                !scrollOver ? `absolute` : `!hidden`
+              }`}
+            />
           </div>
           <Link
             className="sitecard col-span-1 lg:col-span-2"
